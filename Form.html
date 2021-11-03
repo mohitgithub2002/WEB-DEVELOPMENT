@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>Application Form</h1>
+        <form action="backened.js">
+            <label for="name">Name</label>
+            <div><input  type="text" placeholder="Full Name" name="name" id="name"></div><br>
+            <label for="mobile">Mobile No.</label>
+            <div><input type="number" placeholder="Mobile No." name="mobile"id="mobile"></div><br>
+            <label for="email">Email</label>
+            <div><input type="email" placeholder="Email" name="email"id="email"></div><br>
+            <label for="password">Password</label>
+            <div><input type="password" placeholder="password" name="password"id="password"></div><br>
+            <div>
+                DOB
+                <input type="date" placeholder="DOB" name="dob">
+            </div><br>
+            <div>
+                Gender
+                <input type="radio" value="Male"  name="gender">Male
+                <input type="radio" value="Female" name="gender">Female
+            </div><br>
+            
+            <!-- <label for="state">State</label>
+            <div>
+                <input name="state" list="states" placeholder="State">
+                <datalist id="states">
+                    <option value="Rajasthan">
+                    <option value="Punjab">
+                    <option value="Madhya Pradesh">
+                    <option value="Bihar">
+                    <option value="j&k">
+                    <option value="bohpal">
+                    <option value="kerla">
+                </datalist>
+            </div><br> -->
+
+            <div>
+                <label for="state">State</label>
+                <select name="state"  id="state">
+                    option
+                    <option value="none selected">Select</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="j&k">j&k</option>
+                    <option value="bohpal">bohpal</option>
+                </select>
+            </div><br>
+
+            <div>
+                <input type="submit" value="Apply">
+                <input type="reset" value=" Reset">
+            </div><br>
+        </form>
+
+        <h3>Go back to previous page <a href="list.html"> Click Here</a></h3>
+    </body>
+</html>
